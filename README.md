@@ -37,6 +37,8 @@
 
 `> git clone https://github.com/AdelaYa/comments_project`
 
+`cd comments_project`
+
 2. Запускаем Docker
 
 ```
