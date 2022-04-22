@@ -41,8 +41,7 @@
 
 2. Запускаем Docker
 
-```
-> cd ../../ 
+``` 
 > docker build . 
 > docker-compose build 
 > docker-compose up
