@@ -1,5 +1,4 @@
 from django.urls import path
-from rest_framework.urlpatterns import format_suffix_patterns
 from . import views
 
 urlpatterns = [
@@ -11,4 +10,4 @@ urlpatterns = [
     path('comments/<int:post_id>/<int:comment_id>/children', views.CommentChildren.as_view()),
 ]
 
-urlpatterns = format_suffix_patterns(urlpatterns)
+
